@@ -1,0 +1,242 @@
+* {
+    /* outline: 2px solid blue; */
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    font-family: "DM Sans";
+}
+
+
+svg {
+    width: 22px;
+    height: 22px;
+}
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    background-color: #EFF4FF;
+}
+
+.top-content {
+    margin: 20px;
+    font-size: 0.6rem;
+    line-height: 19px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.top-content h1 span {
+    font-weight: 500;
+    font-size: 0.8rem;
+    /* margin-top: 0; */
+}
+
+.middle-content {
+    margin-top: 3rem;
+}
+
+.list-container {
+    list-style-type: none;
+    position: relative;
+    right: 20px;
+    /* margin-left: 2px; */
+
+}
+
+.list-container li {
+    margin-top: 22px;
+}
+.list-item:hover {
+    border: 2px solid #6063EE;
+    background-color: #6063EE;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.list-container li span {
+    margin-left: 13px;
+}
+
+.bottom-content {
+    /* position: relative;
+    top: 10rem; */
+    justify-self: flex-start;
+    /* align-self: flex-end; */
+}
+.premium-member {
+    display: flex;
+}
+.premium-member img {
+    width: 35px;
+    height: 35px;
+    margin-top: 20px;
+    border: 2px solid #EFF4FF;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.premium-member div {
+    margin-left: 13px;
+}
+.premium-member div h5 {
+    font-size: 0.8rem;
+}
+.premium-member div h5 span {
+    font-weight: 400;
+
+}
+.main-content {
+    background-color: #F8F9FF;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    height: 15dvh;
+}
+
+.left-list-container, .right-list-container {
+    display: flex;
+    list-style-type: none;
+    /* padding: 20px; */
+    margin-top: 2px;
+    margin-right: 40px;
+}
+
+.left-list-container li, .right-list-container li {
+    padding: 20px;
+    /* color: black; */
+} 
+.left-list-container li a, .right-list-container li a {
+    text-decoration: none;
+    color: black;
+    margin-top: 2px;
+    /* font-weight: 500; */
+}
+.logo-name {
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #DDDFE7;
+    background-color: #EFF4FF;
+    border-radius: 25px;
+    width: 12rem;
+    height: 3rem;
+    /* margin-top: 2px; */
+    position: relative;
+    bottom: 17px;
+    
+}
+.search-bar input {
+    /* padding: 20px;
+    wid */
+    width: 8rem;
+    /* padding: 10px; */
+    border: 0px solid #DDDFE7;
+    background-color: #EFF4FF;
+    /* border-radius: 20px; */
+
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    font-size: 2.2rem;
+    font-weight: 900;
+    margin-left: 55px;
+}
+
+.text {
+    width: 35rem;
+    margin-left: 55px;
+    /* font-size: 0.8rem; */
+    font-weight: 300;
+    margin-top: 12px;
+    /* letter-spacing: 2px; */
+}
+
+.add-book {
+    margin-top: 30px;
+    border: 3px solid white;
+    border-radius: 15px;
+    background-color: #ffffff;
+    /* box-shadow: 0 0 2px 2px; */
+    margin: 50px;
+    /* width: 60%; */
+}
+.add-book-title {
+    display: flex;
+    margin: 20px 36px;
+}
+
+.bookTitle {
+    font-weight: 800;
+    font-size: 0.8rem;
+    margin: 10px;
+}
+.book-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.add-book-title {
+    /* padding: 20px; */
+}
+.add-book form {
+    display: flex;
+    margin:  5px 30px;
+}
+
+.add-book form div {
+    display: grid;
+    /* gap: 5px; */
+    margin: 14px;
+}
+.add-book form div label {
+    margin-bottom: 10px;
+}
+.book-title, .author {
+    width: 11rem;
+    height: 2rem;
+    border: 1px solid #EFF4FF;
+    border-radius: 4px;
+    background-color: #EFF4FF;
+}
+
+.pages, #genre {
+    width: 6rem;
+    height: 2rem;
+    border: 1px solid #EFF4FF;
+    border-radius: 4px;
+    background-color: #EFF4FF;
+}
+
+
+.add-book form button {
+    width: 10rem;
+    height: 2rem;
+    border: 1px solid #4648D4;
+    border-radius: 5px;
+    background-color: #4648D4;
+    color: #ffffff;
+    align-self: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.collection {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}

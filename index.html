@@ -4,61 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>At-Tahirah Library</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;display=swap" rel="stylesheet"/>
 </head>
+
 <body>
     <aside class="side-bar">
         <div class="top-content">
-            <h3>Digital Sanctuary</h3>
-            <p>Personal Curator</p>
+            <h1>Digital Sanctuary <br> <span>Personal Curator</span></h1>
+            <!-- <p></p> -->
         </div>
 
-        <div>
+        <div class="middle-content">
             <ul class="list-container">
                 <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>file-multiple-outline</title><path d="M16 0H8C6.9 0 6 .9 6 2V18C6 19.1 6.9 20 8 20H20C21.1 20 22 19.1 22 18V6L16 0M20 18H8V2H15V7H20V18M4 4V22H20V24H4C2.9 24 2 23.1 2 22V4H4Z" /></svg>
-                    <span>Library</span>
+                    <div class="list-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>file-multiple-outline</title><path d="M16 0H8C6.9 0 6 .9 6 2V18C6 19.1 6.9 20 8 20H20C21.1 20 22 19.1 22 18V6L16 0M20 18H8V2H15V7H20V18M4 4V22H20V24H4C2.9 24 2 23.1 2 22V4H4Z" /></svg>
+                        <span>Library</span>
+                    </div>
                 </li>
                 <li>
-                    <span>Stats</span>
+                    <div class="list-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M160 96C142.3 96 128 110.3 128 128C128 145.7 142.3 160 160 160L178.7 160L73.4 265.4C60.9 277.9 60.9 298.2 73.4 310.7C85.9 323.2 106.2 323.2 118.7 310.7L224 205.3L224 224C224 241.7 238.3 256 256 256C273.7 256 288 241.7 288 224L288 128C288 110.3 273.7 96 256 96L160 96zM467.8 134.1C467.8 155.1 484.9 172.2 505.9 172.2C526.9 172.2 544 155.1 544 134.1C544 113.1 526.9 96 505.9 96C484.9 96 467.8 113.1 467.8 134.1zM343.7 258.2C343.7 279.2 360.8 296.3 381.8 296.3C402.8 296.3 419.9 279.2 419.9 258.2C419.9 237.2 402.8 220.1 381.8 220.1C360.8 220.1 343.7 237.2 343.7 258.2zM505.9 220.1C484.9 220.1 467.8 237.2 467.8 258.2C467.8 279.2 484.9 296.3 505.9 296.3C526.9 296.3 544 279.2 544 258.2C544 237.2 526.9 220.1 505.9 220.1zM220.2 381.8C220.2 402.8 237.3 419.9 258.3 419.9C279.3 419.9 296.4 402.8 296.4 381.8C296.4 360.8 279.3 343.7 258.3 343.7C237.3 343.7 220.2 360.8 220.2 381.8zM381.8 343.7C360.8 343.7 343.7 360.8 343.7 381.8C343.7 402.8 360.8 419.9 381.8 419.9C402.8 419.9 419.9 402.8 419.9 381.8C419.9 360.8 402.8 343.7 381.8 343.7zM467.9 381.8C467.9 402.8 485 419.9 506 419.9C527 419.9 544.1 402.8 544.1 381.8C544.1 360.8 527 343.7 506 343.7C485 343.7 467.9 360.8 467.9 381.8zM134.1 467.8C113.1 467.8 96 484.9 96 505.9C96 526.9 113.1 544 134.1 544C155.1 544 172.2 526.9 172.2 505.9C172.2 484.9 155.1 467.8 134.1 467.8zM220.2 505.9C220.2 526.9 237.3 544 258.3 544C279.3 544 296.4 526.9 296.4 505.9C296.4 484.9 279.3 467.8 258.3 467.8C237.3 467.8 220.2 484.9 220.2 505.9zM381.8 467.8C360.8 467.8 343.7 484.9 343.7 505.9C343.7 526.9 360.8 544 381.8 544C402.8 544 419.9 526.9 419.9 505.9C419.9 484.9 402.8 467.8 381.8 467.8zM467.9 505.9C467.9 526.9 485 544 506 544C527 544 544.1 526.9 544.1 505.9C544.1 484.9 527 467.8 506 467.8C485 467.8 467.9 484.9 467.9 505.9z"/></svg>
+                        <span>Stats</span>
+                    </div>
                 </li>
                 <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>shape</title><path d="M11,13.5V21.5H3V13.5H11M12,2L17.5,11H6.5L12,2M17.5,13C20,13 22,15 22,17.5C22,20 20,22 17.5,22C15,22 13,20 13,17.5C13,15 15,13 17.5,13Z" /></svg>
+                    <div class="list-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>shape</title><path d="M11,13.5V21.5H3V13.5H11M12,2L17.5,11H6.5L12,2M17.5,13C20,13 22,15 22,17.5C22,20 20,22 17.5,22C15,22 13,20 13,17.5C13,15 15,13 17.5,13Z" /></svg>
 
-                    <span>Category</span>
+                        <span>Category</span>
+                    </div>
                 </li>
                 <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>cog-outline</title><path d="M12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10M10,22C9.75,22 9.54,21.82 9.5,21.58L9.13,18.93C8.5,18.68 7.96,18.34 7.44,17.94L4.95,18.95C4.73,19.03 4.46,18.95 4.34,18.73L2.34,15.27C2.21,15.05 2.27,14.78 2.46,14.63L4.57,12.97L4.5,12L4.57,11L2.46,9.37C2.27,9.22 2.21,8.95 2.34,8.73L4.34,5.27C4.46,5.05 4.73,4.96 4.95,5.05L7.44,6.05C7.96,5.66 8.5,5.32 9.13,5.07L9.5,2.42C9.54,2.18 9.75,2 10,2H14C14.25,2 14.46,2.18 14.5,2.42L14.87,5.07C15.5,5.32 16.04,5.66 16.56,6.05L19.05,5.05C19.27,4.96 19.54,5.05 19.66,5.27L21.66,8.73C21.79,8.95 21.73,9.22 21.54,9.37L19.43,11L19.5,12L19.43,13L21.54,14.63C21.73,14.78 21.79,15.05 21.66,15.27L19.66,18.73C19.54,18.95 19.27,19.04 19.05,18.95L16.56,17.95C16.04,18.34 15.5,18.68 14.87,18.93L14.5,21.58C14.46,21.82 14.25,22 14,22H10M11.25,4L10.88,6.61C9.68,6.86 8.62,7.5 7.85,8.39L5.44,7.35L4.69,8.65L6.8,10.2C6.4,11.37 6.4,12.64 6.8,13.8L4.68,15.36L5.43,16.66L7.86,15.62C8.63,16.5 9.68,17.14 10.87,17.38L11.24,20H12.76L13.13,17.39C14.32,17.14 15.37,16.5 16.14,15.62L18.57,16.66L19.32,15.36L17.2,13.81C17.6,12.64 17.6,11.37 17.2,10.2L19.31,8.65L18.56,7.35L16.15,8.39C15.38,7.5 14.32,6.86 13.12,6.62L12.75,4H11.25Z" /></svg>
+                    <div class="list-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>cog-outline</title><path d="M12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10M10,22C9.75,22 9.54,21.82 9.5,21.58L9.13,18.93C8.5,18.68 7.96,18.34 7.44,17.94L4.95,18.95C4.73,19.03 4.46,18.95 4.34,18.73L2.34,15.27C2.21,15.05 2.27,14.78 2.46,14.63L4.57,12.97L4.5,12L4.57,11L2.46,9.37C2.27,9.22 2.21,8.95 2.34,8.73L4.34,5.27C4.46,5.05 4.73,4.96 4.95,5.05L7.44,6.05C7.96,5.66 8.5,5.32 9.13,5.07L9.5,2.42C9.54,2.18 9.75,2 10,2H14C14.25,2 14.46,2.18 14.5,2.42L14.87,5.07C15.5,5.32 16.04,5.66 16.56,6.05L19.05,5.05C19.27,4.96 19.54,5.05 19.66,5.27L21.66,8.73C21.79,8.95 21.73,9.22 21.54,9.37L19.43,11L19.5,12L19.43,13L21.54,14.63C21.73,14.78 21.79,15.05 21.66,15.27L19.66,18.73C19.54,18.95 19.27,19.04 19.05,18.95L16.56,17.95C16.04,18.34 15.5,18.68 14.87,18.93L14.5,21.58C14.46,21.82 14.25,22 14,22H10M11.25,4L10.88,6.61C9.68,6.86 8.62,7.5 7.85,8.39L5.44,7.35L4.69,8.65L6.8,10.2C6.4,11.37 6.4,12.64 6.8,13.8L4.68,15.36L5.43,16.66L7.86,15.62C8.63,16.5 9.68,17.14 10.87,17.38L11.24,20H12.76L13.13,17.39C14.32,17.14 15.37,16.5 16.14,15.62L18.57,16.66L19.32,15.36L17.2,13.81C17.6,12.64 17.6,11.37 17.2,10.2L19.31,8.65L18.56,7.35L16.15,8.39C15.38,7.5 14.32,6.86 13.12,6.62L12.75,4H11.25Z" /></svg>
 
-                    <span>Settings</span>
+                        <span>Settings</span>
+                    </div>
                 </li>
             </ul>
         </div>
 
         <div class="bottom-content">
             <hr>
-            <div>
-                <img src="https://www.whizz.ae/product/15276482/jpxh-keffiyeh-arabe-para-hombre-turbante-muslim-palestine-scarf-saudi-arabic-agal-sheik-gorros-costume-for-men-black1/?srsltid=AfmBOooBvAKT36vh85NAUvAjk7s6A18-K07S9-yax6dDgx1Aj9VrBnfR" alt="">
+            <div class="premium-member">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/719e1odszhL._UL1200_.jpg" alt="">
                 <div>
-                    <h4>Umar Talha</h4>
-                    <p>Premium Member</p>
+                    <h5>Umar Talha <br> <span>Premium Member</span></h5>
+                    <!-- <p</p> -->
                 </div>
             </div>
         </div>
     </aside>
     <section class="main-content">
         <header>
-            <nav>
-                <ul>
-                    <li><a href="">At-Tahirah Library</a></li>
+            <nav class="nav-container">
+                <ul class="left-list-container">
+                    <li class="logo-name"><a href="">At-Tahirah Library</a></li>
                     <li><a href="">Collection</a></li>
                     <li><a href="">Wishlist</a></li>
                     <li><a href="">Archive</a></li>
                 </ul>
 
-                <ul>
+                <ul class="right-list-container">
                     <li>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>magnify</title><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg>
-                        <input type="text" placeholder="Search collection...">
+                        <div class="search-bar"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>magnify</title><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg>
+                        <input type="text" placeholder="Search collection..."></div>
                     </li>
                     <li>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>cog-outline</title><path d="M12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10M10,22C9.75,22 9.54,21.82 9.5,21.58L9.13,18.93C8.5,18.68 7.96,18.34 7.44,17.94L4.95,18.95C4.73,19.03 4.46,18.95 4.34,18.73L2.34,15.27C2.21,15.05 2.27,14.78 2.46,14.63L4.57,12.97L4.5,12L4.57,11L2.46,9.37C2.27,9.22 2.21,8.95 2.34,8.73L4.34,5.27C4.46,5.05 4.73,4.96 4.95,5.05L7.44,6.05C7.96,5.66 8.5,5.32 9.13,5.07L9.5,2.42C9.54,2.18 9.75,2 10,2H14C14.25,2 14.46,2.18 14.5,2.42L14.87,5.07C15.5,5.32 16.04,5.66 16.56,6.05L19.05,5.05C19.27,4.96 19.54,5.05 19.66,5.27L21.66,8.73C21.79,8.95 21.73,9.22 21.54,9.37L19.43,11L19.5,12L19.43,13L21.54,14.63C21.73,14.78 21.79,15.05 21.66,15.27L19.66,18.73C19.54,18.95 19.27,19.04 19.05,18.95L16.56,17.95C16.04,18.34 15.5,18.68 14.87,18.93L14.5,21.58C14.46,21.82 14.25,22 14,22H10M11.25,4L10.88,6.61C9.68,6.86 8.62,7.5 7.85,8.39L5.44,7.35L4.69,8.65L6.8,10.2C6.4,11.37 6.4,12.64 6.8,13.8L4.68,15.36L5.43,16.66L7.86,15.62C8.63,16.5 9.68,17.14 10.87,17.38L11.24,20H12.76L13.13,17.39C14.32,17.14 15.37,16.5 16.14,15.62L18.57,16.66L19.32,15.36L17.2,13.81C17.6,12.64 17.6,11.37 17.2,10.2L19.31,8.65L18.56,7.35L16.15,8.39C15.38,7.5 14.32,6.86 13.12,6.62L12.75,4H11.25Z" /></svg>
@@ -69,32 +83,44 @@
             </nav>
         </header>
 
-        <h1>Your Digital Sanctuary</h1>
-        <p>Manage Your personal archive with ease. Add new entries or explore your existing collection of knowledge</p>
+       <div class="hero title">Your Digital Sanctuary
+        </div>
+        <div class="hero text">Manage Your personal archive with ease. Add new entries or explore your existing collection of knowledge
+        </div>
+        <!-- <br> <span class="hero text">Manage Your personal archive with ease. Add new entries or explore your existing collection of knowledge</span> -->
 
 
         <div class="add-book">
-            <div>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBl3ODKeaY3ipQw3PmWANRIoQf-p-2c0JkJQ&s" alt="">
-                <caption>Add New Book</caption>
+            <div class="add-book-title">
+                <img class="book-icon"  src="https://png.pngtree.com/png-vector/20221104/ourmid/pngtree-new-borrow-background-education-vector-png-image_40235322.jpg" alt="">
+                <caption class="bookTitle">Add New Book</caption>
             </div>
 
             <form action="">
                 <div>
                     <label for="title">Title</label>
-                    <input type="text">
+                    <input type="text" placeholder="Kitab At-Tawhid" class="book-title">
                 </div>
 
                 <div>
                     <label for="author">Author</label>
-                    <input type="text">
+                    <input type="text" placeholder="Omar Yahyah" class="author">
                 </div>
 
                 <div>
                     <label for="pages">Pages</label>
-                    <input type="text">
+                    <input type="text" placeholder="400" class="pages">
                 </div>
 
+                <div>
+                    <label for="genre">Genre</label>
+                    <select name="genre" id="genre">
+                        <option value="fiqh">Fiqh</option>
+                        <option value="tawhid">Tawhid</option>
+                        <option value="seerah">Seerah</option>
+                        <option value="adab">Adab</option>
+                    </select>
+                </div>
                 <button>
                     + Add Entry
                 </button>
@@ -102,8 +128,10 @@
         </div>
 
         <div class="collection">
-            <h2>Your Collection</h2>
-            <span class="total"></span>
+            <div>
+                <h2>Your Collection</h2>
+                <span class="total"></span>
+            </div>
 
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>view-grid-outline</title><path d="M3 11H11V3H3M5 5H9V9H5M13 21H21V13H13M15 15H19V19H15M3 21H11V13H3M5 15H9V19H5M13 3V11H21V3M19 9H15V5H19Z" /></svg>
@@ -113,5 +141,7 @@
 
         <div class="card-container"></div>
     </section>
+
+    <script src="./scripts.js"></script>
 </body>
 </html>
