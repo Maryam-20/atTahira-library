@@ -96,20 +96,20 @@
                 <caption class="bookTitle">Add New Book</caption>
             </div>
 
-            <form action="">
+            <form action="" id="bookForm">
                 <div>
                     <label for="title">Title</label>
-                    <input type="text" placeholder="Kitab At-Tawhid" class="book-title">
+                    <input type="text" placeholder="Kitab At-Tawhid" class="book-title" name="title">
                 </div>
 
                 <div>
                     <label for="author">Author</label>
-                    <input type="text" placeholder="Omar Yahyah" class="author">
+                    <input type="text" placeholder="Omar Yahyah" class="author" name="author">
                 </div>
 
                 <div>
                     <label for="pages">Pages</label>
-                    <input type="text" placeholder="400" class="pages">
+                    <input type="text" placeholder="400" class="pages" name="pages">
                 </div>
 
                 <div>
@@ -121,7 +121,7 @@
                         <option value="adab">Adab</option>
                     </select>
                 </div>
-                <button>
+                <button id="btn">
                     + Add Entry
                 </button>
             </form>
@@ -139,9 +139,12 @@
             </div>
         </div>
 
-        <div class="card-container"></div>
+        <div class="card-container">
+            <div class="row"></div>
+        </div>
     </section>
 
     <script src="./scripts.js"></script>
+     <!-- <script src="./sample.js"></script> -->
 </body>
 </html>

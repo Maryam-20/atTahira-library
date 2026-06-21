@@ -1,8 +1,3 @@
-* {
-    /* outline: 2px solid blue; */
-}
-
-
 
 body {
     margin: 0;
@@ -28,25 +23,21 @@ svg {
     margin: 20px;
     font-size: 0.6rem;
     line-height: 19px;
-    /* display: flex;
-    flex-direction: column; */
 }
 .top-content h1 span {
     font-weight: 500;
     font-size: 0.8rem;
-    /* margin-top: 0; */
 }
 
 .middle-content {
-    margin-top: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
 .list-container {
     list-style-type: none;
     position: relative;
     right: 20px;
-    /* margin-left: 2px; */
-
 }
 
 .list-container li {
@@ -64,10 +55,8 @@ svg {
 }
 
 .bottom-content {
-    /* position: relative;
-    top: 10rem; */
-    justify-self: flex-start;
-    /* align-self: flex-end; */
+    position: relative;
+    top: 8rem;
 }
 .premium-member {
     display: flex;
@@ -102,20 +91,17 @@ svg {
 .left-list-container, .right-list-container {
     display: flex;
     list-style-type: none;
-    /* padding: 20px; */
     margin-top: 2px;
     margin-right: 40px;
 }
 
 .left-list-container li, .right-list-container li {
     padding: 20px;
-    /* color: black; */
 } 
 .left-list-container li a, .right-list-container li a {
     text-decoration: none;
     color: black;
     margin-top: 2px;
-    /* font-weight: 500; */
 }
 .logo-name {
     font-weight: 900;
@@ -131,19 +117,14 @@ svg {
     border-radius: 25px;
     width: 12rem;
     height: 3rem;
-    /* margin-top: 2px; */
     position: relative;
     bottom: 17px;
     
 }
 .search-bar input {
-    /* padding: 20px;
-    wid */
     width: 8rem;
-    /* padding: 10px; */
     border: 0px solid #DDDFE7;
     background-color: #EFF4FF;
-    /* border-radius: 20px; */
 
 }
 
@@ -160,10 +141,8 @@ svg {
 .text {
     width: 35rem;
     margin-left: 55px;
-    /* font-size: 0.8rem; */
     font-weight: 300;
     margin-top: 12px;
-    /* letter-spacing: 2px; */
 }
 
 .add-book {
@@ -171,9 +150,7 @@ svg {
     border: 3px solid white;
     border-radius: 15px;
     background-color: #ffffff;
-    /* box-shadow: 0 0 2px 2px; */
     margin: 50px;
-    /* width: 60%; */
 }
 .add-book-title {
     display: flex;
@@ -190,9 +167,6 @@ svg {
     height: 20px;
 }
 
-.add-book-title {
-    /* padding: 20px; */
-}
 .add-book form {
     display: flex;
     margin:  5px 30px;
@@ -200,7 +174,6 @@ svg {
 
 .add-book form div {
     display: grid;
-    /* gap: 5px; */
     margin: 14px;
 }
 .add-book form div label {
@@ -235,8 +208,88 @@ svg {
     margin-left: 20px;
 }
 
+
 .collection {
     display: flex;
     justify-content: space-between;
     margin: 50px;
+}
+
+.card-container .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    gap: 20px;
+    
+}
+.card-container .row div{
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+    width: 18rem;
+    
+}
+
+.card-container .row div img{
+    width: 18rem;
+    height: 17rem;
+}
+
+
+.bookAuthorDiv p {
+    font-size: 12px;
+    padding: 19px;
+    margin: 5px;
+    color: black;
+}
+
+.bookPages {
+    color: black;
+    padding: 10px;
+    font-size: 1rem;
+    margin:auto auto;
+    font-weight: 400;
+}
+
+.bookGenre {
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    margin: 15px;
+    width: 4rem;
+    background-color: #6063EE;
+    border: 2px solid #6063EE;
+    
+
+}
+.bookTitleContainer, .bookPagesDiv, .bookAuthorDiv {
+    display: flex;
+    justify-content: space-between;
+}
+.bookTitleContainer h3 {
+    margin-left: 10px;
+    color: black;
+}
+.delBtn {
+    width: 4rem;
+    height: 2rem;
+    border: 1px solid #EFF4FF;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 10px;
+    margin: 15px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+
+.btnRead {
+    background-color: green;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 8px;
+    margin: 20px 70px;
 }
